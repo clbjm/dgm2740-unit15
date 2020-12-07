@@ -1,0 +1,40 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+/*----------- MAIN --------------*/
+div {
+    display: inline-grid;
+    grid-template-rows: 1fr;
+    padding: 1rem;
+  }
+  .flex {
+    flex: 25%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .blog {
+    display: flex;
+    flex-flow: wrap;
+    margin: auto;
+  }
+  .column {
+    flex: 100%;
+    max-width: 30%;
+    margin: auto;
+    padding: 1rem;
+  }
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */

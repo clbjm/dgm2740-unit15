@@ -1,0 +1,52 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 64rem;
+        margin: auto;
+        padding: .5rem;
+    }
+
+    /*----------- BODY --------------*/
+
+
+
+    /*----------- HEADER --------------*/
+
+
+
+    /*----------- NAVIGATION --------------*/
+
+
+    /*----------- MAIN --------------*/
+
+    .flex {
+        flex: 25%;
+        max-width: 50%;
+      }
+      .blog {
+        display: grid;
+        grid-auto-flow: column
+      }
+      .column {
+        flex: 25%;
+        max-width: 100%;
+        margin: auto;
+        padding: 1rem;
+      }
+      .formula {
+        float: right;
+        margin: -1rem;
+      }
+      .info {
+        float: left;
+      }
+
+    /*----------- FOOTER --------------*/
+
+}
+
+/* end of media query */
